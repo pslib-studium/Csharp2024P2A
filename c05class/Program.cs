@@ -11,3 +11,5 @@ alf.SetFirstName("Alfa");
 Console.WriteLine(alf.GetFullName());
 Student bruce = new Student();
 Console.WriteLine(bruce.FirstName);
+bruce.FirstName = "Brunhilda"; // property = value
+var col = new Student("Collin");

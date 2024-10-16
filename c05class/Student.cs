@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,12 +17,24 @@ namespace c05class
         // property
         public string FirstName
         {
-            get { return _firstName; }
             set { if (value != "Elon") _firstName = value; }
+            get { return _firstName; }        
         }
+        [Required] // anotace
+        public string ClassName { get; set; } = "1A";
+        public string Name
+        {
+            get {
+                return _firstName + " " + _lastName;
+            } // lze jen číst
+        }
+        public int Age { get; private set; } // lze měnit jen z vnitřku třídy
+        public string FullName => _firstName + " " + _lastName;
+        public int ShoeSize { get; init; } = 42; // init = jen při inicializaci
+        public int MyProperty { get; set; } // prop<tab><tab> = property
 
         // konstruktor = constructor
-        public Student(string firstName, string lastName)
+        public Student(string firstName, string lastName = "Smith")
         {
             //this.firstName = firstName; // this = instance of this class
             //this.lastName = lastName;
@@ -34,6 +47,7 @@ namespace c05class
         {
             _firstName = "Bruce";
             _lastName = "Wayne";
+            // return Student ...
         }
 
         public string GetFirstName()
@@ -55,5 +69,24 @@ namespace c05class
         {
             return _firstName + " " + _lastName;
         }
+
+        public void SetAge(int age)
+        {
+            if (age > 0 && age < 120) Age = age;
+        }
+
+        public void SetAge(string age)
+        {
+            if (int.TryParse(age, out int a))
+            {
+                SetAge(a);
+            }
+        }
+
+        public int GetAge() // polymorfismus - přetížení metody
+        {
+            return Age;
+        }
+
     }
 }
