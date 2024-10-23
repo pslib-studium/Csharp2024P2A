@@ -70,7 +70,7 @@ namespace c05class
             return _firstName + " " + _lastName;
         }
 
-        public void SetAge(int age)
+        public void SetAge(int age) // polymorfismus - přetížení metody
         {
             if (age > 0 && age < 120) Age = age;
         }
