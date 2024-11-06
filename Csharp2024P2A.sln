@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "c04array", "c04array\c04arr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "c05class", "c05class\c05class.csproj", "{EFB34F04-8858-4ECA-8F3F-614F199B353C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c06inheritance", "c06inheritance\c06inheritance.csproj", "{E0399334-3E38-4463-A7C7-34B9CC13894A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "c06inheritance", "c06inheritance\c06inheritance.csproj", "{E0399334-3E38-4463-A7C7-34B9CC13894A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c07polymorhism", "c07polymorhism\c07polymorhism.csproj", "{3FADA3B0-5F7D-4F4E-A06F-E3E579871083}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{E0399334-3E38-4463-A7C7-34B9CC13894A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0399334-3E38-4463-A7C7-34B9CC13894A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0399334-3E38-4463-A7C7-34B9CC13894A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FADA3B0-5F7D-4F4E-A06F-E3E579871083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FADA3B0-5F7D-4F4E-A06F-E3E579871083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FADA3B0-5F7D-4F4E-A06F-E3E579871083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FADA3B0-5F7D-4F4E-A06F-E3E579871083}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
