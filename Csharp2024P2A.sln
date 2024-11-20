@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "c06inheritance", "c06inheri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "c07polymorhism", "c07polymorhism\c07polymorhism.csproj", "{3FADA3B0-5F7D-4F4E-A06F-E3E579871083}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c08exceptions", "c08exceptions\c08exceptions.csproj", "{AC1D33F8-5EDF-4F91-8FAE-CE708C7B4665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "c08exceptions", "c08exceptions\c08exceptions.csproj", "{AC1D33F8-5EDF-4F91-8FAE-CE708C7B4665}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c09static", "c09static\c09static.csproj", "{A6BCAE31-64CE-44E8-8FE6-59D1C5516A79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "c09static", "c09static\c09static.csproj", "{A6BCAE31-64CE-44E8-8FE6-59D1C5516A79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c10interfaces", "c10interfaces\c10interfaces.csproj", "{977E0887-8557-4466-9FB6-AA54C2A30596}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{A6BCAE31-64CE-44E8-8FE6-59D1C5516A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6BCAE31-64CE-44E8-8FE6-59D1C5516A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6BCAE31-64CE-44E8-8FE6-59D1C5516A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{977E0887-8557-4466-9FB6-AA54C2A30596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{977E0887-8557-4466-9FB6-AA54C2A30596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{977E0887-8557-4466-9FB6-AA54C2A30596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{977E0887-8557-4466-9FB6-AA54C2A30596}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
