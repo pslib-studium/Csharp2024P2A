@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "c08exceptions", "c08excepti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "c09static", "c09static\c09static.csproj", "{A6BCAE31-64CE-44E8-8FE6-59D1C5516A79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c10interfaces", "c10interfaces\c10interfaces.csproj", "{977E0887-8557-4466-9FB6-AA54C2A30596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "c10interfaces", "c10interfaces\c10interfaces.csproj", "{977E0887-8557-4466-9FB6-AA54C2A30596}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c11sysInterfaces", "c11sysInterfaces\c11sysInterfaces.csproj", "{6F421A7F-FA80-4699-B056-F0E21B975862}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{977E0887-8557-4466-9FB6-AA54C2A30596}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{977E0887-8557-4466-9FB6-AA54C2A30596}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{977E0887-8557-4466-9FB6-AA54C2A30596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F421A7F-FA80-4699-B056-F0E21B975862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F421A7F-FA80-4699-B056-F0E21B975862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F421A7F-FA80-4699-B056-F0E21B975862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F421A7F-FA80-4699-B056-F0E21B975862}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
