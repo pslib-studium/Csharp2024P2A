@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c15delegates", "c15delegate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c16extMethods", "c16extMethods\c16extMethods.csproj", "{DCBDA07F-7F6E-4A59-946F-2E05BB052A53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c17strings", "c17strings\c17strings.csproj", "{2228DD47-254D-4911-ADD7-B64816261FED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{DCBDA07F-7F6E-4A59-946F-2E05BB052A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCBDA07F-7F6E-4A59-946F-2E05BB052A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCBDA07F-7F6E-4A59-946F-2E05BB052A53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2228DD47-254D-4911-ADD7-B64816261FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2228DD47-254D-4911-ADD7-B64816261FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2228DD47-254D-4911-ADD7-B64816261FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2228DD47-254D-4911-ADD7-B64816261FED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
